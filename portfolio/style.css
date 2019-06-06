@@ -1,0 +1,160 @@
+body {
+ font-family: 'Francois One', sans-serif;
+ margin: 0;
+}
+
+h1 {
+	color: white;
+	font-size: 50px;
+	font-weight: normal;
+	margin-bottom: 0;
+
+}
+
+h2 {
+color: white;
+font-size: 18px;
+margin-top: 0;
+}
+
+h3 { 
+text-align: center;
+font-size: 28px; 
+font-weight: normal;
+margin-top: 100;
+}
+
+.about-container {
+	background: url('reallyGoodMicBlackened.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 800px;
+  
+}
+
+.bio {
+	color: white;
+	font-size: 14px;
+
+
+
+}
+
+.me {
+	height: 150px;
+	border-radius: 100%;
+	border-style: solid;
+	border-color: white;
+	margin-top: 40;
+}
+
+.about {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+
+
+}
+
+.grey {
+	height: 3px;
+	background-color: white;
+	border: none;
+	width: 100px;
+}
+
+.yellow {
+	border-top: 5px double #8C0000;
+	width: 250px;
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+}
+
+.box {
+	float: left;
+	
+	width: 42.4%;
+	margin-left: 5%;
+	margin-top: 80px;
+}
+
+.clear {
+	clear: both;
+}
+
+h4 {
+	text-align: center;
+	font-size: 24px;
+}
+
+p { text-align: center; }
+
+.full-width {
+	width: 100%;
+}
+.skills-and-tools {
+	max-width: 400px;
+	margin: 40px auto;
+}
+
+.icons {
+	text-align: center;
+	margin: 30px 0;
+}
+
+.contact-me {
+	background-color:  #202020;
+	height: 350px;
+	padding-top: 30px;
+}
+
+.contact-headline {
+	color: white;
+
+}
+
+.contact-info {
+	color: white;
+	font-size: 13px;
+	margin-top: 30px;
+}
+
+.contact-link {
+	color: white;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.nav-link {
+	color: white;
+	text-decoration: none;
+}
+
+li {
+	display: inline-block;
+	font-size: 12px;
+	width: 100px;
+	font-weight: bold;
+	margin-top: 30px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: center;
+	margin-left: 30px;
+}
+
+.hire-me {
+	border-style: solid;
+	border-color: white;
+}
+
+.apps {
+	color: black;
+}
+.apps:hover {
+	color: #62738D;
+}
