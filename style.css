@@ -30,7 +30,7 @@ h3 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 800px;
+    padding-bottom: 10px;
 
 }
 
@@ -54,7 +54,7 @@ h3 {
 }
 
 .about {
-    width: 400px;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -170,4 +170,9 @@ li {
 
 .apps:hover {
     color: #62738D;
+}
+
+.navbar.navbar-1 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
+
 }
