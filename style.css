@@ -21,7 +21,7 @@ h3 {
     text-align: center;
     font-size: 28px;
     font-weight: normal;
-    margin-top: 100;
+    margin-top: 40px;
 }
 
 .about-container {
@@ -78,13 +78,7 @@ h3 {
     border-left: none;
 }
 
-.box {
-    float: left;
 
-    width: 42.4%;
-    margin-left: 5%;
-    margin-top: 80px;
-}
 
 .clear {
     clear: both;
@@ -98,6 +92,14 @@ h4 {
 p {
     text-align: center;
 }
+
+.algorithm_descriptions {
+    text-align: center;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .full-width {
     width: 100%;
@@ -175,4 +177,9 @@ li {
 .navbar.navbar-1 .navbar-toggler-icon {
     background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
 
+}
+
+.booyah-box {
+    background-color: #F5F5F5;
+    padding-bottom: 10px;
 }
