@@ -54,6 +54,45 @@ p {
     border-top-color: black;
 }
 
+@media(max-width: 650px) {
+    .extra_content {
+        display: none;
+    }
+
+    .btn {
+
+        background-color: black;
+        border-color: white;
+        font-size: 16px;
+        cursor: pointer;
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    #read_more {
+        display: block;
+        color: white;
+
+    }
+}
+
+.read_more {
+    display: none;
+
+}
+
+
+
+
+
+
+
+.show {
+    display: block !important;
+}
+
+
+
 @media screen and (max-width: 992px) {
     h1 {
         font-size: 33px;
@@ -64,7 +103,7 @@ p {
     }
 
     .bio {
-        font-size: 12px;
+        font-size: 18px;
     }
 }
 
@@ -74,11 +113,11 @@ p {
     }
 
     h2 {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .bio {
-        font-size: 11px;
+        font-size: 16px;
     }
 
     .about {
@@ -88,6 +127,8 @@ p {
 
 
 }
+
+
 
 .about-container {
     background: url('reallyGoodMicBlackened.jpg') no-repeat center center fixed;
@@ -226,6 +267,8 @@ li {
     background-color: #F5F5F5;
     padding-bottom: 10px;
 }
+
+
 
 .box {
     text-align: center;
