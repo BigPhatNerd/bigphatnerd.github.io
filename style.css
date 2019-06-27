@@ -294,6 +294,12 @@ li {
 
 }
 
+.sticky-top {
+    position: sticky;
+    background-color: white;
+}
+
+
 .booyah-box {
 
     background-color: #F5F5F5;
