@@ -5,7 +5,7 @@ body {
 
 h1 {
     color: white;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: normal;
     margin-bottom: 0;
 
@@ -15,29 +15,30 @@ h1 {
 
 h2 {
     color: white;
-    font-size: 18px;
+    font-size: 50px;
     margin-top: 0;
 }
 
 h3 {
     text-align: center;
-    font-size: 28px;
+    font-size: 40px;
     font-weight: normal;
     margin-top: 20px;
 }
 
 h4 {
     text-align: center;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 p {
     text-align: center;
+    font-size: 22px;
 }
 
 .bio {
     color: white;
-    font-size: 14px;
+    font-size: 22px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -54,7 +55,23 @@ p {
     border-top-color: black;
 }
 
-@media(max-width: 650px) {
+.a {
+    background-color: #F5F5F5;
+}
+
+.b {
+    background-color: #F5F5F5;
+}
+
+.c {
+    background-color: white;
+}
+
+.d {
+    background-color: white;
+}
+
+@media(max-width: 500px) {
     .extra_content {
         display: none;
     }
@@ -74,40 +91,12 @@ p {
         color: white;
 
     }
+
+
+
 }
 
-.read_more {
-    display: none;
-
-}
-
-
-
-
-
-
-
-.show {
-    display: block !important;
-}
-
-
-
-@media screen and (max-width: 992px) {
-    h1 {
-        font-size: 33px;
-    }
-
-    h2 {
-        font-size: 18px;
-    }
-
-    .bio {
-        font-size: 18px;
-    }
-}
-
-@media screen and (max-width: 600px) {
+@media(max-width: 576px) {
     h1 {
         font-size: 22px;
     }
@@ -120,13 +109,56 @@ p {
         font-size: 16px;
     }
 
+    p {
+        font-size: 16px;
+    }
+
     .about {
         width: 85%;
     }
 
 
 
+    .b {
+        background-color: white;
+
+    }
+
+    .c {
+        background-color: #F5F5F5;
+    }
+
 }
+
+.read_more {
+    display: none;
+
+}
+
+.show {
+    display: block !important;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .bio {
+        font-size: 16px;
+    }
+
+    p {
+        font-size 22px;
+    }
+}
+
 
 
 
