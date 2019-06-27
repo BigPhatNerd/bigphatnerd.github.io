@@ -50,8 +50,8 @@ p {
 }
 
 .outline {
-    border: 1px solid;
-    border-color: black;
+    border-top: 1px solid;
+    border-top-color: black;
 }
 
 @media screen and (max-width: 992px) {
@@ -84,6 +84,8 @@ p {
     .about {
         width: 85%;
     }
+
+
 
 }
 
@@ -137,6 +139,7 @@ p {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 
@@ -219,6 +222,7 @@ li {
 }
 
 .booyah-box {
+
     background-color: #F5F5F5;
     padding-bottom: 10px;
 }
