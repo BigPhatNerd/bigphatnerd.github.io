@@ -92,7 +92,20 @@ p {
     text-align: center;
 }
 
+.about-container {
+    background: url('reallyGoodMicBlackened.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 10px;
+}
+
+
 @media(max-width: 500px) {
+
+
+
     .extra_content {
         display: none;
     }
@@ -167,6 +180,12 @@ p {
 
 
 @media screen and (max-width: 768px) {
+    .about-container {
+        background: url(reallyGoodMicBlackenedandsmaller.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
     h1 {
         font-size: 30px;
     }
@@ -186,20 +205,13 @@ p {
     p {
         font-size 22px;
     }
+
+
 }
 
 
 
 
-.about-container {
-    background: url('reallyGoodMicBlackened.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding-bottom: 10px;
-
-}
 
 
 
