@@ -53,21 +53,31 @@
     </nav>
     </div>
     <!--/.Navbar-->
-    <div class="about-container">
-        <div class="about">
-            <img src="me.jpg" class="me" />
-            <h1>Wilson Horrell</h1>
-            <h2>COMPUTER PROGRAMMER & ENTREPRENEUR</h2>
-            <hr class="grey" />
-            <p class="bio"> Wilson Horrell is a computer programmer and entrepreneur. Wilson has owned and operated his own landscape construction and industrial services business for the last sixteen years. <p id="extra_content" class="bio extra_content"> Three years ago, Wilson co-founded <a href="https://www.liftheavyrunlong.com/" class="contact-link" target="_blank">Lift Heavy Run Long®, llc </a>which is a community of over 7,800 athletes from all over the world who believe in supporting others in the world of fitness. Wilson hosts and produces The Lift Heavy Run Long® weekly podcast which has reached as high as #126 worldwide in the Fitness and Nutrition category on iTunes. Wilson also helps design, build and maintain the website LiftHeavyRunLong.com where he is also an active blogger.<br>Wilson is highly energetic, extremely motivated and loves working with other people.
-                </p>
-                <button id="read_more" class="read_more btn success">Show More</button>
-            </p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="about-container">
+                <div class="about">
+                    <img src="me.jpg" class="me" />
+                    <h1>Wilson Horrell</h1>
+                    <h2>COMPUTER PROGRAMMER & ENTREPRENEUR</h2>
+                    <hr class="grey" />
+                    <p class="bio"> Wilson Horrell is a computer programmer and entrepreneur. Wilson has owned and operated his own landscape construction and industrial services business for the last sixteen years. <p id="extra_content" class="bio extra_content"> Three years ago, Wilson co-founded <a href="https://www.liftheavyrunlong.com/" class="contact-link" target="_blank">Lift Heavy Run Long®, llc </a>which is a community of over 7,800 athletes from all over the world who believe in supporting others in the world of fitness. Wilson hosts and produces The Lift Heavy Run Long® weekly podcast which has reached as high as #126 worldwide in the Fitness and Nutrition category on iTunes. Wilson also helps design, build and maintain the website LiftHeavyRunLong.com where he is also an active blogger.<br>Wilson is highly energetic, extremely motivated and loves working with other people.
+                        </p>
+                        <button id="read_more" class="read_more btn success">Show More</button>
+                    </p>
+                </div>
+            </div>
         </div>
-    </div>
-    <h3 id="code-samples">Code Snippets</h3>
-    <hr class="yellow">
-    <div class="booyah-box">
+        <div class="row">
+            <div class="col-12">
+                <h3 id="code-samples">Code Snippets</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <hr class="yellow">
+            </div>
+        </div>
         <div class="row">
             <div class="col-12 col-md-12 col-lg-6  my-auto">
                 <br />
@@ -97,18 +107,17 @@
   puts answer</code></pre>
             </div>
         </div>
-    </div>
-    <br class="clear" />
-    <div class="row">
-        <div class=" col-12 col-md-12 col-lg-6  my-auto">
-            <div class="algorithm_descriptions">
-                <h4> Ordinal Challenge</h4>
-                <p> This Ruby progam will convert a plain number to the ordinal of the number. So for example, if the user enters 2, it will display 2nd, if the user enters 3, it will display 3rd, etc.
-                </p>
+        <br class="clear" />
+        <div class="row">
+            <div class=" col-12 col-md-12 col-lg-6  my-auto">
+                <div class="algorithm_descriptions">
+                    <h4> Ordinal Challenge</h4>
+                    <p> This Ruby progam will convert a plain number to the ordinal of the number. So for example, if the user enters 2, it will display 2nd, if the user enters 3, it will display 3rd, etc.
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="col-12 col-md-12 col-lg-6">
-            <pre><code class="language-ruby">#asks user for number
+            <div class="col-12 col-md-12 col-lg-6">
+                <pre><code class="language-ruby">#asks user for number
     puts "Enter a number:"
     #number is the input from the user
     number = gets.chomp
@@ -136,22 +145,22 @@
     else 
     puts "#{number}th"
   end</code></pre>
-        </div>
-    </div>
-    <br class="clear" />
-    <div class="booyah-box">
-        <div class="row">
-            <div class="col-12 col-md-12 col-lg-6 my-auto">
-                <br />
-                <div class="algorithm_descriptions">
-                    <h4> Foobar</h4>
-                    <p>
-                        This Ruby program is an adaptation of a classic technical interview problem which displays sequences of the Foobar pattern.
-                    </p>
-                </div>
             </div>
-            <div class="col-12 col-md-12 col-lg-6">
-                <pre><code class="language-ruby"> #Displays instruction to user
+        </div>
+        <br class="clear" />
+        <div class="booyah-box">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-6 my-auto">
+                    <br />
+                    <div class="algorithm_descriptions">
+                        <h4> Foobar</h4>
+                        <p>
+                            This Ruby program is an adaptation of a classic technical interview problem which displays sequences of the Foobar pattern.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6">
+                    <pre><code class="language-ruby"> #Displays instruction to user
     puts "Enter a number: "
     #User input
     number = gets.chomp
@@ -182,138 +191,163 @@
     end
     end
   </code></pre>
+                </div>
             </div>
         </div>
-    </div>
-    <br class="clear" />
-    <h3 id="web-apps">Web Apps</h3>
-    <hr class="yellow" />
-    <br />
-    <div class="row">
-        <div class="col-12 col-md-12 col-lg-6 a">
-            <div class="box">
-                <a href="https://splurty-wilson-horrell.herokuapp.com/" class="apps">
-                    <h4> Quote Generator</h4>
-                    <img src="splurty.png" class="full-width" />
-                    <p> A database-powered quote generator with a mobile-first design, using the Ruby framework, HTML, and CSS. Uses Git and Github for version control, and launched on Heroku.
-                    </p>
-                </a>
-            </div>
-        </div>
-        <div class="col-12 col-md-12 col-lg-6 b">
-            <div class="box">
-                <a href="https://nomster-wilson-horrell.herokuapp.com/" class="apps">
-                    <h4>Yelp Clone</h4>
-                    <img src="nomster.png" class="full-width" />
-                    <p>
-                        A Yelp clone that integrates with the Google Maps API
-                        and includes features like user comments, star ratings,
-                        image uploading, and user authentication.
-                    </p>
-                </a>
-            </div>
-        </div>
-    </div>
-    <br class="clear" />
-    <div class="row">
-        <div class="col-12 col-md-12 col-lg-6 c">
-            <div class="box">
-                <a href="https://flixter-wilson-horrell.herokuapp.com/" class="apps">
-                    <h4>Two-Sided Market Place</h4>
-                    <img src="flixter.png" class="full-width" />
-                    <p>
-                        A two-sided, video-streaming marketplace platform that
-                        features credit card payment capabilities, user role
-                        management, complex user interfaces, and advanced
-                        database relationships.
-                    </p>
-                </a>
-            </div>
-        </div>
-        <div class="col-12 col-md-12 col-lg-6 d">
-            <div class="box">
-                <a href="https://grammable-wilson-horrell.herokuapp.com/" class="apps">
-                    <h4>Test Driven Development</h4>
-                    <img src="grammable.png" class="full-width" />
-                    <p>
-                        An Instagram clone that was built using industry-standard, test-driven
-                        development following numerous red/green/refactor cycles.
-                    </p>
-                </a>
-            </div>
-        </div>
-    </div>
-    <br class="clear" />
-    <div class="row">
-        <div class="col-12 col-md-12 col-lg-6 a">
-            <div class="box">
-                <a href="https://todoster-wilson-horrell.herokuapp.com/" class="apps">
-                    <h4>Single Page Todo Application</h4>
-                    <img src="todoster.png" class="full-width" />
-                    <p>
-                        This single-page to-do application features a
-                        fluid user interface that– by using JavaScript–
-                        allows users to rapidly add dynamic content.
-                    </p>
-                </a>
-            </div>
-        </div>
-        <div class="col-12 col-md-12 col-lg-6 b">
-            <div class="box">
-                <h4>Agile Team Project</h4>
-                <img src="chess.png" class="full-width" />
-                <p>
-                    Worked on an Agile software development team building
-                    a chess application. Under the guidance of a senior software engineer,
-                    we had weekly Agile team meetings for code reviews, sprint planning,
-                    and feature assignments.
-                </p>
-            </div>
-        </div>
-    </div>
-    <br class="clear" />
-    <div class="row">
-        <div class="col-12 col-md-12 col-lg-6 c">
-            <div class="box">
-                <a href="https://note-app-horrell.herokuapp.com/" class="apps">
-                    <h4>Note Application</h4>
-                    <img src="note.png" class="full-width" />
-                    <p>
-                        Used React to build a production-ready note-taking app with a fluid user interface.
-                    </p>
-                </a>
-            </div>
-        </div>
-    </div>
-    <br class="clear" />
-    <h3 id="skills-and-tools">Skills &amp; Tools</h3>
-    <hr class="yellow" />
-    <div class="box">
-        <p class="skills-and-tools">
-            Wilson has developed proficiency and expertise in the following programming languages and comfort with the following tools.
-        </p>
-    </div>
-    <div class="box">
-        <div class="icons">
-            <img src="github.png" class="icon" />
-            <img src="rubocop.png" class="icon" />
-            <img src="trello.png" class="icon" />
-            <img src="slack.png" class="icon" />
-            <img src="codeship.png" class="icon" />
-            <br class="clear" />
-            <img src="skills.png" class="icon" />
-        </div>
-    </div>
-    <div class="contact-me" id="hire-me">
-        <h3 class="contact-headline">Contact</h3>
+        <br class="clear" />
+        <h3 id="web-apps">Web Apps</h3>
         <hr class="yellow" />
-        <p class="contact-info">
-            Currently entertaining new opportunities. Please contact me via email:
-        </p>
-        <p>
-            <a href="mailto:wilsonhorrell@gmail.com" class="contact-link">
-                wilsonhorrell@gmail.com
-            </a>
+        <br />
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-6 a">
+                <div class="box">
+                    <a href="https://splurty-wilson-horrell.herokuapp.com/" class="apps">
+                        <h4> Quote Generator</h4>
+                        <img src="splurty.png" class="full-width" />
+                        <p class="descriptions">
+                            <br />
+                            A database-powered quote generator with a mobile-first design, using the Ruby framework, HTML, and CSS. Uses Git and Github for version control, and launched on Heroku.
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-6 b">
+                <div class="box">
+                    <a href="https://nomster-wilson-horrell.herokuapp.com/" class="apps">
+                        <h4><br />Yelp Clone</h4>
+                        <img src="nomster.png" class="full-width" />
+                        <p class="descriptions">
+                            <br />
+                            A Yelp clone that integrates with the Google Maps API
+                            and includes features like user comments, star ratings,
+                            image uploading, and user authentication.
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <br class="clear" />
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-6 c">
+                <div class="box">
+                    <a href="https://flixter-wilson-horrell.herokuapp.com/" class="apps">
+                        <h4><br />Two-Sided Market Place</h4>
+                        <img src="flixter.png" class="full-width" />
+                        <p class="descriptions">
+                            <br />
+                            A two-sided, video-streaming marketplace platform that
+                            features credit card payment capabilities, user role
+                            management, complex user interfaces, and advanced
+                            database relationships.
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-6 d">
+                <div class="box">
+                    <a href="https://grammable-wilson-horrell.herokuapp.com/" class="apps">
+                        <h4><br />Test Driven Development</h4>
+                        <img src="grammable.png" class="full-width" />
+                        <p class="descriptions">
+                            <br />
+                            An Instagram clone that was built using industry-standard, test-driven
+                            development following numerous red/green/refactor cycles.
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <br class="clear" />
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-6 a">
+                <div class="box">
+                    <a href="https://todoster-wilson-horrell.herokuapp.com/" class="apps">
+                        <h4><br />Single Page Todo Application</h4>
+                        <img src="todoster.png" class="full-width" />
+                        <p class="descriptions">
+                            <br />
+                            This single-page to-do application features a
+                            fluid user interface that– by using JavaScript–
+                            allows users to rapidly add dynamic content.
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-6 b">
+                <div class="box">
+                    <h4><br />Agile Team Project</h4>
+                    <img src="chess.png" class="full-width" />
+                    <p class="descriptions">
+                        <br />
+                        Worked on an Agile software development team building
+                        a chess application. Under the guidance of a senior software engineer,
+                        we had weekly Agile team meetings for code reviews, sprint planning,
+                        and feature assignments.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br class="clear" />
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-6 c">
+                <div class="box">
+                    <a href="https://note-app-horrell.herokuapp.com/" class="apps">
+                        <h4><br />Note Application</h4>
+                        <img src="note.png" class="full-width" />
+                        <p class="descriptions">
+                            <br />
+                            Used React to build a production-ready note-taking app with a fluid user interface.
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <br class="clear" />
+                <h3 id="skills-and-tools">Skills &amp; Tools</h3>
+            </div>
+        </div>
+        <div class="row">
+            <hr class="yellow" />
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="box">
+                    <p class="skills-and-tools">
+                        Wilson has developed proficiency and expertise in the following programming languages and comfort with the following tools.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="icons">
+                    <img src="github.png" class="icon" />
+                    <img src="rubocop.png" class="icon" />
+                    <img src="trello.png" class="icon" />
+                    <img src="slack.png" class="icon" />
+                    <img src="codeship.png" class="icon" />
+                    <br class="clear" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="contact-me" id="hire-me">
+                    <h3 class="contact-headline">Contact</h3>
+                    <hr class="yellow" />
+                    <p class="contact-info">
+                        Currently entertaining new opportunities. Please contact me via email:
+                    </p>
+                    <p>
+                        <a href="mailto:wilsonhorrell@gmail.com" class="contact-link">
+                            wilsonhorrell@gmail.com
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="portfolio.js"> </script>
 </body>
