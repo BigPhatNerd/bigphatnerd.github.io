@@ -90,21 +90,18 @@
             </div>
             <div class="col-12 col-md-12 col-lg-6 ">
                 <pre><code class="language-ruby">
-    #displays the instructions
-    puts "Enter degrees in Celsius: "
-
-    #takes the input
-    celcius = gets.chomp
-
-    #defines the method
-    def converter(celcius)
+  #displays the instructions
+puts "Enter degrees in Celsius: "
+#takes the input
+celcius = gets.chomp
+#defines the method
+def converter(celcius)
     fahrenheight = (celcius.to_f * (9.0/5.0)) + 32.0
     return fahrenheight
-    end
-
-    answer = converter(celcius)
-    #calls and displays the function using the celsius argument that the user passed into it
-  puts answer</code></pre>
+end
+answer = converter(celcius)
+#calls and displays the function using the celsius argument that the user passed into it
+puts answer</code></pre>
             </div>
         </div>
         <br class="clear" />
@@ -131,20 +128,20 @@
 
 
     if (number > 10 && number < 14)  || (hundreds > 10 && hundreds < 14) || number == 0  
-    puts "#{number}th"
+        puts "#{number}th"
 
     elsif right_most == 1
-    puts "#{number}st"
+        puts "#{number}st"
 
     elsif right_most == 2
-    puts "#{number}nd"
+        puts "#{number}nd"
 
     elsif right_most == 3
-    puts "#{number}rd"
+        puts "#{number}rd"
 
     else 
-    puts "#{number}th"
-  end</code></pre>
+        puts "#{number}th"
+    end</code></pre>
             </div>
         </div>
         <br class="clear" />
@@ -161,7 +158,7 @@
                 </div>
                 <div class="col-12 col-md-12 col-lg-6">
                     <pre><code class="language-ruby"> #Displays instruction to user
-    puts "Enter a number: "
+ puts "Enter a number: "
     #User input
     number = gets.chomp
     #Converts number to integer
@@ -170,25 +167,25 @@
     i = 1
 
     while i <= number 
-    if i % 3 == 0 && i % 5 == 0
-    puts "Foobar"
-    i += 1
+        if i % 3 == 0 && i % 5 == 0
+            puts "Foobar"
+            i += 1
 
-    elsif i % 3 == 0
-    puts "Foo"
-    i += 1
+        elsif i % 3 == 0
+            puts "Foo"
+            i += 1
 
-    elsif i % 5 == 0
-    puts "Bar"
-    i += 1
+        elsif i % 5 == 0
+            puts "Bar"
+            i += 1
 
-    else
+        else
 
-    puts i
-    i +=1
+            puts i
+            i +=1
 
 
-    end
+        end
     end
   </code></pre>
                 </div>
