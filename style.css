@@ -12,6 +12,35 @@ h1 {
 }
 
 
+.icon-linked {
+
+    position: relative;
+    float: middle;
+    width: 72px;
+    height: 72px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+    margin-left: 10px;
+
+
+}
+
+.icon-git {
+    position: relative;
+    float: middle;
+    width: 60px;
+    height: 60px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+
 
 h2 {
     color: white;
@@ -41,6 +70,7 @@ p {
     font-size: 22px;
     margin-left: 10px;
     margin-right: 10px;
+    text-align: left;
 }
 
 .about {
@@ -99,7 +129,27 @@ p {
     -o-background-size: cover;
     background-size: cover;
     padding-bottom: 10px;
+
 }
+
+
+.git {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%;
+
+
+
+}
+
+
+
+.git-text {
+    font-size: 12px;
+    color: black;
+}
+
 
 
 @media(max-width: 500px) {
@@ -126,6 +176,15 @@ p {
 
     }
 
+    .icon-linked {
+        width: 40px;
+        height: 40px;
+    }
+
+    .icon-git {
+        width: 34px;
+        height: 34px;
+    }
 
 
 }
@@ -288,6 +347,11 @@ p {
     color: white;
     font-weight: bold;
 
+}
+
+.contact-link:hover {
+    color: #62738D;
+    text-decoration: none;
 }
 
 .nav-link {
